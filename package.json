@@ -4,7 +4,8 @@
   "description": "Notion Clone based on React JS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/SarthakParikh/crispy-fiesta/issues"
   },
-  "homepage": "https://github.com/SarthakParikh/crispy-fiesta#readme"
+  "homepage": "https://github.com/SarthakParikh/crispy-fiesta#readme",
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
 }
